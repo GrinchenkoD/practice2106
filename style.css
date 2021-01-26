@@ -1,1 +1,1 @@
-body{min-height:100vh;background-color:tomato}.square{width:200px;height:200px;background-color:teal}
+*{box-sizing:border-box;margin:0;padding:0}body{display:flex;justify-content:space-around;min-height:100vh;background-color:beige}ul{list-style:none}.gallery{width:90%;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between}.gallery>li{width:100px;height:200px;border:1px solid #000;overflow:hidden}
