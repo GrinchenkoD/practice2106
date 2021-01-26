@@ -1,9 +1,27 @@
-body {
-  min-height: 100vh;
-  background-color: tomato;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
-.square {
-  width: 200px;
+body {
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh;
+  background-color: beige;
+}
+ul {
+  list-style: none;
+}
+.gallery {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery > li {
+  width: 100px;
   height: 200px;
-  background-color: teal;
+  border: 1px solid black;
+  overflow: hidden;
 }
